@@ -1,0 +1,100 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:padding="10dp"
+    tools:context="myapplication.example.sultan.greentext.Story"
+    >
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/binding"
+    />
+
+    <TextView
+        android:id="@+id/newSentenceButton"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:background="#1abc9c"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="New Sentence"/>
+
+     <EditText
+        android:id="@+id/newSentenceText"
+        android:layout_marginLeft="70dp"
+        android:layout_above="@+id/newSentenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="28sp"
+            android:text="Title"/>
+
+        <View
+        android:id="@+id/spacerBar"
+        android:layout_below="@id/storyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"/>
+
+        <ImageView
+            android:id="@+id/storyImage"
+            android:layout_below="@+id/spacerBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginBottom="10dp"
+            />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_marginLeft="55dp"
+        android:id="@+id/storySwipeReresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/storyImage"
+        android:layout_above="@+id/newSentenceText">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/storyRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode = "never">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

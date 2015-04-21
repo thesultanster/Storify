@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2a2b2a"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample" />
+
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="210dp"
+        android:background="#EE2a2b2a"
+        >
+
+        <ImageView
+            android:id="@+id/heartIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/views_icon_blue" />
+
+        <TextView
+            android:id="@+id/likesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heartIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="34k"
+            android:textColor="#ECF0F1"
+            android:textSize="40sp" />
+
+        <View
+            android:id="@+id/spacer"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/likesText"
+            android:background="#FFFFFF"
+
+            />
+
+        <ImageView
+            android:id="@+id/viewsIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/spacer"
+            android:src="@mipmap/heart_icon_red" />
+
+        <TextView
+            android:id="@+id/viewsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewsIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:text="24"
+            android:textColor="#ECF0F1"
+            android:textSize="40sp" />
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:background="#03C9A9">
+
+        <TextView
+            android:id="@+id/discoverHotButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="My Stories"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/discoverNewButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Contributed"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/discoverAllTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Favorites"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

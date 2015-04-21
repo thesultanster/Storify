@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context="myapplication.example.sultan.greentext.ContributeFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contributeDrawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/contributeBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2ECC71">
+
+        <TextView
+            android:id="@+id/discoverHotButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="Hot"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/discoverNewButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="New"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/discoverAllTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:text="Random"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

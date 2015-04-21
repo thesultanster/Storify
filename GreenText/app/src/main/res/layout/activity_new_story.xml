@@ -1,0 +1,58 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapplication.example.sultan.greentext.NewStory">
+    
+    <ImageView
+        android:id="@+id/redbanner"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="250dp"
+        android:src="@drawable/redbanner"/>
+
+
+    <EditText
+        android:id="@+id/newStoryTitle"
+        android:layout_below="@+id/redbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:textSize="37sp"
+        android:hint="Title"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/newStorySentence"
+        android:layout_below="@+id/newStoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#00000000"
+        android:textSize="25sp"
+        android:hint="Sentence"
+        />
+
+    <TextView
+        android:id="@+id/createStoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/publish"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        >
+
+    </TextView>
+
+</RelativeLayout>

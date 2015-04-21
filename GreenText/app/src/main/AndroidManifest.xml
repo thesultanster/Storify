@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapplication.example.sultan.greentext" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".DiscoverFragment"
+            android:label="@string/title_activity_discover_fragment" >
+        </activity>
+        <activity
+            android:name=".ContributeFragment"
+            android:label="@string/title_activity_contribute_fragment" >
+        </activity>
+        <activity
+            android:name=".ProfileFragment"
+            android:label="@string/title_activity_profile_fragment" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Story"
+            android:label="@string/title_activity_story" >
+
+        </activity>
+        <activity
+            android:name=".NewStory"
+            android:label="@string/title_activity_new_story" >
+        </activity>
+    </application>
+
+</manifest>

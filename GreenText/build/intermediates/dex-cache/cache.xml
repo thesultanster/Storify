@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-d69e9f640e6a3bbd3545c7addbf90d1ee04cdf69.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\classes-ce35488c6c71d43f5f3a52f15589712eb50d1fe1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-b79da2edbb2baed4be7e60c5e41b981fbade0790.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\classes-fe11b2ae929b0efd72c5ea2a0bde111ac2f9acf9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-fd898de954105f556f86589359494a48796ca1c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\libs\Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\Parse-1.9.1-e28af33f1a82f95f55f87b84cc74de79b3f2b043.jar" />
+    </item>
+    <item
+        jar="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Sultan\AndroidStudioProjects\GreenText\app\build\intermediates\pre-dexed\debug\classes-fd04db199d801fb4a3e5cbab7e99c3723fea6f87.jar" />
+    </item>
+
+</items>

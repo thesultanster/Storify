@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F1"
+    tools:context="myapplication.example.sultan.greentext.DiscoverFragment">
+
+    <TextView
+        android:id="@+id/newStoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#132455"
+        android:gravity="center_horizontal"
+        android:text="New Story"
+        android:textColor="#ffffff"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/discoverSwipeReresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newStoryButton">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/discoverDrawerList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/discoveryBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:background="#D91E18">
+
+        <TextView
+            android:id="@+id/discoverHotButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Hot"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/discoverNewButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="New"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/discoverAllTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="All Time"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
